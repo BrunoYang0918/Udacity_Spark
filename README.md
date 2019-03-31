@@ -6,4 +6,4 @@ The pacakges required for running these script are pyspark, seaborn, re
 
 
 ## File Description
-Sparkify.ipython: the jupyter file that relates to the data explornation, data modeling process. The final output of this scrpit is a trainned model.
+Sparkify.ipython: the jupyter file that relates to the data exploration, data modeling process. The final output of this scrpit is a trainned model.
