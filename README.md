@@ -8,6 +8,19 @@ The pacakges required for running these script are pyspark, seaborn, re
 ## File Description
 Sparkify.ipynb: the jupyter file that relates to the data exploration, data modeling process. The final output of this scrpit is a trained model.
 
+## Modeling
+A model function is created, which help to split dataset, build model pipeline, as well as tuning the model. The model used here is Random Forest Classifier.
+
+### Data Preprocessing
+The key variables (gender and level as well as the label Churn User) have been converted from string to vectors for the modeling process.
+
+### Implementation
+A pyspark machine learning pipeline which includes all necessary steps, such as one hot encoding, model training and model tuning are generated.
+
+### Refinement
+The initial modeling result by using Random Forest Classifier reaches a F1 socre around 73%. By adding parameters grid to ajust hyperparameters such as numTrees, maxDepth, the F1 score now reaches 84.55%, much higher than the initial model result.
+
+
 ## Results
 ### Model Evaluation and Validation
 In the very begining of this study, I am meant to use Logistic Regression Model instead of this Random Forest. However, per quick test run, the model metrics score is not as high as expected. Therefore, I switch to use Random Forest, which successfully increases the result as expected. In terms of the model hyperparameters, as per my past experience with scikit-learn package, the num of trees and tree depath are two areas worthwhile to try.
