@@ -1,4 +1,4 @@
-# Udacity_Spark
+# Sparkify
 This purpose to build this prediction model is to predict the loss of current clients.
 
 ## Initialization
