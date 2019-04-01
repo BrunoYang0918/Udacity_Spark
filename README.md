@@ -6,10 +6,9 @@ The pacakges required for running these script are pyspark, seaborn, re
 
 
 ## File Description
-Sparkify.ipython: the jupyter file that relates to the data exploration, data modeling process. The final output of this scrpit is a trainned model.
+Sparkify.ipynb: the jupyter file that relates to the data exploration, data modeling process. The final output of this scrpit is a trained model.
 
 ## Results
-
 ### Model Evaluation and Validation
 In the very begining of this study, I am meant to use Logistic Regression Model instead of this Random Forest. However, per quick test run, the model metrics score is not as high as expected. Therefore, I switch to use Random Forest, which successfully increase the result as expected. In terms of the model hyperparameters, as per my past experience with scikit-learn package, the num of trees and tree depath are two areas worthwhile to try.
 
