@@ -14,9 +14,9 @@ In the very begining of this study, I am meant to use Logistic Regression Model 
 
 ### Justification
 By using level, gender to train the model, the successfully rate to predict the loss of client is around 85%. We have tried following methods to achieve this result.
-- 1. testing on different models; 
-- 2. tuning the model hyperparameters; 
-- 3. using cross validation 
+- testing on different models; 
+- tuning the model hyperparameters; 
+- using cross validation 
 
 
 ## Conclusion
