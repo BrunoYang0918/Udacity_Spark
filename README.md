@@ -10,7 +10,7 @@ Sparkify.ipynb: the jupyter file that relates to the data exploration, data mode
 
 ## Results
 ### Model Evaluation and Validation
-In the very begining of this study, I am meant to use Logistic Regression Model instead of this Random Forest. However, per quick test run, the model metrics score is not as high as expected. Therefore, I switch to use Random Forest, which successfully increase the result as expected. In terms of the model hyperparameters, as per my past experience with scikit-learn package, the num of trees and tree depath are two areas worthwhile to try.
+In the very begining of this study, I am meant to use Logistic Regression Model instead of this Random Forest. However, per quick test run, the model metrics score is not as high as expected. Therefore, I switch to use Random Forest, which successfully increases the result as expected. In terms of the model hyperparameters, as per my past experience with scikit-learn package, the num of trees and tree depath are two areas worthwhile to try.
 
 ### Justification
 By using level, gender to train the model, the successfully rate to predict the loss of client is around 85%. We have tried following methods to achieve this result.
